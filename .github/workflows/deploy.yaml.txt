@@ -26,6 +26,7 @@ jobs:
         env:
           GIT_USER: mehedihassanome
           GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+          USE_SSH: false
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
