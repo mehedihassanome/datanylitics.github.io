@@ -1,0 +1,16 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "6 - Main Notes",
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "showInlineTitle": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": true,
+  "promptDelete": false
+}

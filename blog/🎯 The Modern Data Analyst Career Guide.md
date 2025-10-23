@@ -1,8 +1,12 @@
-·2025-10-16 12:18
-
-Status: Child
-
-Tags: [[Data Analysis]] [[Data Analyst]] [[Career]]
+---
+title: 🎯 The Modern Data Analyst Career Guide
+date: 2025-10-16 12:18
+status: Child
+tags:
+  - Data Analysis
+  - Data Analyst
+  - Career
+---
 
 
 # 🎯 The Modern Data Analyst Career Guide

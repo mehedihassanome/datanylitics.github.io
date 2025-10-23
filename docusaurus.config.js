@@ -12,8 +12,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Data Analytics Documentation',
+  tagline: 'Your guide to data analytics',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -30,7 +30,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mehedihassanome', // Usually your GitHub org/user name.
-  projectName: '/datanalytics/', // Usually your repo name.
+  projectName: 'datanalytics.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -51,23 +51,11 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          routeBasePath: '/',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mehedihassanome/datanalytics.github.io/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -94,23 +82,13 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Data Analytics Docs',
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: 'Docs',
           },
         ],
       },
@@ -121,8 +99,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Introduction',
+                to: '/',
               },
             ],
           },
@@ -147,12 +125,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/mehedihassanome/datanalytics.github.io',
               },
             ],
           },
